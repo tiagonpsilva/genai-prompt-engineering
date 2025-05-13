@@ -60,6 +60,6 @@ knowledge_graph:
 - [ ] O resultado foi testado e validado?
 </quality-checklist>
 
-## 📚 Referências {#referencias}
+## 📚 Referências
 
 - [Referências Oficiais e Papers](08_referencias_prompt-engineering.md) 

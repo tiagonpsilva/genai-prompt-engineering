@@ -203,7 +203,7 @@ Equipa o modelo com ferramentas externas e capacidade de raciocínio para utiliz
 >
 > Integre resultados de diferentes APIs para compor um dashboard de indicadores de negócio.
 
-## 📚 Referências {#referencias}
+## 📚 Referências
 
 - [Referências Oficiais e Papers](08_referencias_prompt-engineering.md)
 - [Reflexion: Language Agents with Verbal Reinforcement Learning (paper)](https://arxiv.org/abs/2303.11366)

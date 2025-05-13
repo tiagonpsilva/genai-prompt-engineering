@@ -179,7 +179,7 @@ Self-consistency consiste em gerar múltiplos caminhos de raciocínio para o mes
 >
 > Gere alternativas para autenticação de usuários em APIs e selecione a mais consistente com requisitos de segurança.
 
-## 📚 Referências {#referencias}
+## 📚 Referências
 
 - [Referências Oficiais e Papers](08_referencias_prompt-engineering.md)
 - [Chain-of-Thought Prompting Elicits Reasoning in Large Language Models (paper original)](https://arxiv.org/abs/2201.11903)

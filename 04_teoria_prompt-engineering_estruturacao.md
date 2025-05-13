@@ -147,35 +147,7 @@ Processo iterativo onde o modelo avalia e melhora suas próprias respostas, prom
 >
 > Escreva um e-mail de comunicação de incidente, revise para torná-lo mais objetivo e informativo.
 
-## 🗣️ Maieutic Prompting
-
-**Como funciona:**
-Utiliza questionamentos socráticos para extrair, esclarecer e aprimorar raciocínios do modelo. O modelo é guiado por perguntas que aprofundam o entendimento.
-
-**Quando usar:**
-- Exploração de temas complexos ou filosóficos
-- Quando se deseja estimular reflexão profunda
-- Para análise crítica de argumentos
-
-**Exemplos de prompts:**
-> O que é justiça? Por que você pensa assim? O que mudaria sua opinião?
->
-> Explique o conceito de liberdade. O que pode limitar a liberdade de alguém?
->
-> Por que a ética é importante na tecnologia? Quais dilemas éticos podem surgir?
-
-**Exemplos aplicados a projetos de tecnologia:**
-> O que caracteriza uma arquitetura escalável? Por que isso é importante em sistemas modernos?
->
-> Por que a governança de dados é fundamental em projetos de BI? O que pode acontecer sem ela?
->
-> O que diferencia um código limpo de um código difícil de manter? Como isso impacta equipes de desenvolvimento?
->
-> Por que a automação de testes é relevante em DevOps? O que mudaria se não fosse adotada?
->
-> O que torna uma API realmente intuitiva para desenvolvedores? Como isso afeta a adoção de um produto?
-
-## 📚 Referências {#referencias}
+## 📚 Referências
 
 - [Referências Oficiais e Papers](08_referencias_prompt-engineering.md)
 - [Least-to-Most Prompting Enables Complex Reasoning in Large Language Models (paper)](https://arxiv.org/abs/2210.00720)

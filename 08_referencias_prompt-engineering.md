@@ -23,10 +23,6 @@ knowledge_graph:
   relationships: []
 ---
 
-<!-- SEMANTIC_ID: REFERENCIAS_PROMPT_ENG_08 -->
-<!-- KNOWLEDGE_DOMAIN: IA/LLM/Prompt Engineering/Referências -->
-<!-- SEMANTIC_CONFIDENCE: HIGH -->
-
 # 📚 Referências Oficiais e Papers
 
 <!-- summary:start -->

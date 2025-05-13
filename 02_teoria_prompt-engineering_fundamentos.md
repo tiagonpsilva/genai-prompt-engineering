@@ -57,6 +57,6 @@ A **Engenharia de Prompt** é o campo dedicado a projetar, estruturar e otimizar
 - **CoT**: Chain of Thought (raciocínio passo a passo)
 - **ToT**: Tree of Thought (exploração de múltiplos caminhos)
 
-## 📚 Referências {#referencias}
+## 📚 Referências
 
 - [Referências Oficiais e Papers](08_referencias_prompt-engineering.md) 

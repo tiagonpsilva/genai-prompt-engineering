@@ -62,6 +62,6 @@ knowledge_graph:
 - **Self-Refine:** Revisão automática de respostas
 - **Constrained Prompting:** Geração de texto em formato JSON
 
-## 📚 Referências {#referencias}
+## 📚 Referências
 
 - [Referências Oficiais e Papers](08_referencias_prompt-engineering.md) 
