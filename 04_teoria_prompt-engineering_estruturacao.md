@@ -1,0 +1,184 @@
+---
+title: "Estruturação e Refinamento de Prompts"
+description: "Técnicas para estruturar, refinar e aprimorar prompts para LLMs: Least-to-Most, Generated Knowledge, ReAct, Self-Refine, Maieutic Prompting."
+author: "Equipe GenAI"
+created_date: "2024-06-10"
+updated_date: "2024-06-10"
+version: "1.0"
+status: "draft"
+confidence: "high"
+tags:
+  - estruturacao
+  - refinamento
+  - engenharia-de-prompt
+categories:
+  - Tutorial
+  - Teoria
+language: "pt-BR"
+related_docs: []
+knowledge_graph:
+  concepts:
+    - id: "CONCEPT_LEAST_TO_MOST"
+      name: "Least-to-Most Prompting"
+    - id: "CONCEPT_REACT"
+      name: "ReAct"
+  relationships: []
+---
+
+<!-- SEMANTIC_ID: ESTRUTURACAO_PROMPT_ENG_04 -->
+<!-- KNOWLEDGE_DOMAIN: IA/LLM/Prompt Engineering/Estruturação -->
+<!-- SEMANTIC_CONFIDENCE: HIGH -->
+
+# 🏗️ Estruturação e Refinamento de Prompts
+
+<!-- summary:start -->
+> Esta seção apresenta técnicas para estruturar e refinar prompts, como Least-to-Most Prompting, Generated Knowledge, ReAct, Self-Refine e Maieutic Prompting, com exemplos e aplicações.
+<!-- summary:end -->
+
+## 🪜 Least-to-Most Prompting
+
+**Como funciona:**
+Divide problemas complexos em subproblemas mais simples, resolvendo-os em ordem crescente de dificuldade. O modelo é guiado a abordar etapas menores antes de atacar o problema maior.
+
+**Quando usar:**
+- Problemas que podem ser decompostos em etapas
+- Questões de lógica, matemática ou programação
+- Situações em que o modelo se perde em problemas muito grandes
+
+**Exemplos de prompts:**
+> Primeiro, identifique as partes do problema. Depois, resolva cada parte em ordem de dificuldade crescente: Como calcular a média ponderada de três notas?
+>
+> Divida o seguinte desafio em etapas menores e resolva cada uma: Como construir um pipeline de dados do zero?
+>
+> Liste os subproblemas para organizar um evento corporativo e resolva-os do mais simples ao mais complexo.
+
+**Exemplos aplicados a projetos de tecnologia:**
+> Divida o processo de deploy contínuo em etapas menores e resolva cada uma, do setup do repositório até a automação dos testes.
+>
+> Liste os subproblemas para implementar autenticação multifator em um sistema web e resolva-os do mais simples ao mais complexo.
+>
+> Separe em etapas a criação de um data warehouse, começando pela modelagem até a integração de fontes externas.
+>
+> Quebre o desafio de migrar um sistema legado para a nuvem em subproblemas e resolva-os em ordem de dificuldade.
+>
+> Divida a tarefa de monitorar performance de microserviços em etapas e explique como resolver cada uma.
+
+## 🧠 Generated Knowledge Prompting
+
+**Como funciona:**
+Solicita ao modelo que gere conhecimentos relevantes antes de resolver o problema principal. O modelo "prepara o terreno" trazendo fatos, conceitos ou dados úteis para a solução.
+
+**Quando usar:**
+- Tarefas que dependem de contexto ou conhecimento prévio
+- Resolução de problemas abertos ou de pesquisa
+- Quando o modelo pode se beneficiar de brainstorming antes da resposta
+
+**Exemplos de prompts:**
+> Antes de responder, liste fatos importantes sobre a fotossíntese. Agora, explique por que ela é essencial para as plantas.
+>
+> Gere conhecimentos relevantes sobre segurança em APIs REST antes de sugerir boas práticas.
+>
+> Quais conceitos matemáticos são necessários para resolver uma equação de segundo grau? Agora, resolva x² - 5x + 6 = 0.
+
+**Exemplos aplicados a projetos de tecnologia:**
+> Liste conhecimentos essenciais sobre arquitetura de microsserviços antes de propor uma solução para escalabilidade.
+>
+> Gere fatos relevantes sobre bancos de dados NoSQL antes de recomendar um para um sistema de alta disponibilidade.
+>
+> Quais práticas de segurança são importantes ao expor APIs públicas? Agora, sugira como proteger endpoints sensíveis.
+>
+> Liste conceitos de machine learning necessários para implementar um sistema de recomendação e, em seguida, proponha um modelo.
+>
+> Gere informações sobre técnicas de ETL antes de sugerir uma arquitetura para integração de dados.
+
+## 🤖 ReAct (Reasoning + Acting)
+
+**Como funciona:**
+Alterna entre raciocínio e ações, permitindo que o modelo planeje, execute e observe resultados iterativamente. O modelo pode, por exemplo, raciocinar, buscar informações e depois agir novamente.
+
+**Quando usar:**
+- Tarefas que envolvem busca, execução de comandos ou múltiplas etapas
+- Problemas que exigem interação com ferramentas externas
+- Processos iterativos de análise e ação
+
+**Exemplos de prompts:**
+> Pesquise sobre a história da internet, explique seu raciocínio e mostre as etapas da busca.
+>
+> Analise um texto, destaque palavras-chave e depois resuma o conteúdo.
+>
+> Planeje uma consulta SQL, execute mentalmente e explique o resultado obtido.
+
+**Exemplos aplicados a projetos de tecnologia:**
+> Analise logs de erro, identifique padrões e proponha ações corretivas para um sistema distribuído.
+>
+> Busque informações sobre frameworks de frontend, compare-os e sugira o mais adequado para um projeto de alta performance.
+>
+> Planeje a criação de um script de automação, execute mentalmente cada etapa e explique os resultados esperados.
+>
+> Investigue possíveis causas para lentidão em um banco de dados, proponha hipóteses e ações de teste.
+>
+> Analise requisitos de um sistema, proponha uma arquitetura e revise a proposta após simular cenários de uso.
+
+## 🔄 Self-Refine
+
+**Como funciona:**
+Processo iterativo onde o modelo avalia e melhora suas próprias respostas, promovendo autocrítica e refinamento. O modelo revisa, corrige e aprimora a resposta inicial.
+
+**Quando usar:**
+- Quando a qualidade da resposta é crítica
+- Para tarefas de escrita, revisão ou geração de código
+- Em contextos de melhoria contínua
+
+**Exemplos de prompts:**
+> Gere uma resposta para a pergunta abaixo, depois revise e melhore sua própria resposta: O que é machine learning?
+>
+> Escreva um parágrafo sobre sustentabilidade e, em seguida, refine para torná-lo mais claro e objetivo.
+>
+> Crie um código Python para inverter uma string e depois otimize o código gerado.
+
+**Exemplos aplicados a projetos de tecnologia:**
+> Escreva um script para backup de banco de dados, revise e otimize para maior eficiência.
+>
+> Gere um plano de testes para uma API REST, revise e melhore a cobertura dos casos de teste.
+>
+> Crie um template de documentação técnica, refine para torná-lo mais claro e padronizado.
+>
+> Implemente uma função de validação de dados em Python, revise e otimize para performance.
+>
+> Escreva um e-mail de comunicação de incidente, revise para torná-lo mais objetivo e informativo.
+
+## 🗣️ Maieutic Prompting
+
+**Como funciona:**
+Utiliza questionamentos socráticos para extrair, esclarecer e aprimorar raciocínios do modelo. O modelo é guiado por perguntas que aprofundam o entendimento.
+
+**Quando usar:**
+- Exploração de temas complexos ou filosóficos
+- Quando se deseja estimular reflexão profunda
+- Para análise crítica de argumentos
+
+**Exemplos de prompts:**
+> O que é justiça? Por que você pensa assim? O que mudaria sua opinião?
+>
+> Explique o conceito de liberdade. O que pode limitar a liberdade de alguém?
+>
+> Por que a ética é importante na tecnologia? Quais dilemas éticos podem surgir?
+
+**Exemplos aplicados a projetos de tecnologia:**
+> O que caracteriza uma arquitetura escalável? Por que isso é importante em sistemas modernos?
+>
+> Por que a governança de dados é fundamental em projetos de BI? O que pode acontecer sem ela?
+>
+> O que diferencia um código limpo de um código difícil de manter? Como isso impacta equipes de desenvolvimento?
+>
+> Por que a automação de testes é relevante em DevOps? O que mudaria se não fosse adotada?
+>
+> O que torna uma API realmente intuitiva para desenvolvedores? Como isso afeta a adoção de um produto?
+
+## 📚 Referências {#referencias}
+
+- [Referências Oficiais e Papers](08_referencias_prompt-engineering.md)
+- [Least-to-Most Prompting Enables Complex Reasoning in Large Language Models (paper)](https://arxiv.org/abs/2210.00720)
+- [ReAct: Synergizing Reasoning and Acting in Language Models (paper)](https://arxiv.org/abs/2210.03629)
+- [Maieutic Prompting: Logically Consistent Reasoning with Recursive Explanations (paper)](https://arxiv.org/abs/2210.07183)
+- [Awesome Prompt Engineering (repositório)](https://github.com/promptslab/Awesome-Prompt-Engineering) 
