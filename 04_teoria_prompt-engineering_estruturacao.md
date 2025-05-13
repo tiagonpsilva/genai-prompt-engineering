@@ -1,34 +1,3 @@
----
-title: "Estruturação e Refinamento de Prompts"
-description: "Técnicas para estruturar, refinar e aprimorar prompts para LLMs: Least-to-Most, Generated Knowledge, ReAct, Self-Refine, Maieutic Prompting."
-author: "Equipe GenAI"
-created_date: "2024-06-10"
-updated_date: "2024-06-10"
-version: "1.0"
-status: "draft"
-confidence: "high"
-tags:
-  - estruturacao
-  - refinamento
-  - engenharia-de-prompt
-categories:
-  - Tutorial
-  - Teoria
-language: "pt-BR"
-related_docs: []
-knowledge_graph:
-  concepts:
-    - id: "CONCEPT_LEAST_TO_MOST"
-      name: "Least-to-Most Prompting"
-    - id: "CONCEPT_REACT"
-      name: "ReAct"
-  relationships: []
----
-
-<!-- SEMANTIC_ID: ESTRUTURACAO_PROMPT_ENG_04 -->
-<!-- KNOWLEDGE_DOMAIN: IA/LLM/Prompt Engineering/Estruturação -->
-<!-- SEMANTIC_CONFIDENCE: HIGH -->
-
 # 🏗️ Estruturação e Refinamento de Prompts
 
 <!-- summary:start -->

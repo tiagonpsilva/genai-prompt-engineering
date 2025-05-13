@@ -1,32 +1,3 @@
----
-title: "Casos de Uso e Exemplos Práticos de Engenharia de Prompt"
-description: "Exemplos reais e aplicações práticas das principais técnicas de engenharia de prompt."
-author: "Equipe GenAI"
-created_date: "2024-06-10"
-updated_date: "2024-06-10"
-version: "1.0"
-status: "draft"
-confidence: "high"
-tags:
-  - casos-de-uso
-  - exemplos
-  - engenharia-de-prompt
-categories:
-  - Tutorial
-  - Prática
-language: "pt-BR"
-related_docs: []
-knowledge_graph:
-  concepts:
-    - id: "CONCEPT_PROMPT_ENG"
-      name: "Engenharia de Prompt"
-  relationships: []
----
-
-<!-- SEMANTIC_ID: CASOS_USO_PROMPT_ENG_06 -->
-<!-- KNOWLEDGE_DOMAIN: IA/LLM/Prompt Engineering/Prática -->
-<!-- SEMANTIC_CONFIDENCE: HIGH -->
-
 # 🛠️ Casos de Uso e Exemplos Práticos
 
 <!-- summary:start -->

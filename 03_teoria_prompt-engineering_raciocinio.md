@@ -1,38 +1,3 @@
----
-title: "Técnicas de Raciocínio Passo-a-Passo em Engenharia de Prompt"
-description: "Explicação detalhada das principais técnicas de raciocínio para LLMs: CoT, ToT, Zero-shot CoT, Few-shot CoT, Self-consistency."
-author: "Equipe GenAI"
-created_date: "2024-06-10"
-updated_date: "2024-06-10"
-version: "1.0"
-status: "draft"
-confidence: "high"
-tags:
-  - raciocinio
-  - chain-of-thought
-  - tree-of-thought
-  - engenharia-de-prompt
-categories:
-  - Tutorial
-  - Teoria
-language: "pt-BR"
-related_docs: []
-knowledge_graph:
-  concepts:
-    - id: "CONCEPT_COT"
-      name: "Chain of Thought"
-    - id: "CONCEPT_TOT"
-      name: "Tree of Thought"
-  relationships:
-    - from: "CONCEPT_COT"
-      to: "CONCEPT_TOT"
-      type: "complementary"
----
-
-<!-- SEMANTIC_ID: RACIOCINIO_PROMPT_ENG_03 -->
-<!-- KNOWLEDGE_DOMAIN: IA/LLM/Prompt Engineering/Raciocínio -->
-<!-- SEMANTIC_CONFIDENCE: HIGH -->
-
 # 🧠 Técnicas de Raciocínio Passo-a-Passo
 
 <!-- summary:start -->
