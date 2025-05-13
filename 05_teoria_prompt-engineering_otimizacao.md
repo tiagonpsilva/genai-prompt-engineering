@@ -1,34 +1,3 @@
----
-title: "Otimização de Instruções e Estratégias Avançadas"
-description: "Técnicas para otimizar prompts e estratégias avançadas: Role Prompting, Reflexion, APE, Constrained Prompting, Directional Stimulus, ART."
-author: "Equipe GenAI"
-created_date: "2024-06-10"
-updated_date: "2024-06-10"
-version: "1.0"
-status: "draft"
-confidence: "high"
-tags:
-  - otimizacao
-  - estrategias
-  - engenharia-de-prompt
-categories:
-  - Tutorial
-  - Teoria
-language: "pt-BR"
-related_docs: []
-knowledge_graph:
-  concepts:
-    - id: "CONCEPT_ROLE_PROMPTING"
-      name: "Role Prompting"
-    - id: "CONCEPT_APE"
-      name: "Automatic Prompt Engineer"
-  relationships: []
----
-
-<!-- SEMANTIC_ID: OTIMIZACAO_PROMPT_ENG_05 -->
-<!-- KNOWLEDGE_DOMAIN: IA/LLM/Prompt Engineering/Otimização -->
-<!-- SEMANTIC_CONFIDENCE: HIGH -->
-
 # 🚀 Otimização de Instruções e Estratégias Avançadas
 
 <!-- summary:start -->

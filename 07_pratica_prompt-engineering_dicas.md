@@ -1,32 +1,3 @@
----
-title: "Dicas, Convenções e Boas Práticas em Engenharia de Prompt"
-description: "Recomendações práticas, convenções de mercado e checklist para criação de prompts eficazes."
-author: "Equipe GenAI"
-created_date: "2024-06-10"
-updated_date: "2024-06-10"
-version: "1.0"
-status: "draft"
-confidence: "high"
-tags:
-  - dicas
-  - boas-praticas
-  - engenharia-de-prompt
-categories:
-  - Tutorial
-  - Prática
-language: "pt-BR"
-related_docs: []
-knowledge_graph:
-  concepts:
-    - id: "CONCEPT_PROMPT_ENG"
-      name: "Engenharia de Prompt"
-  relationships: []
----
-
-<!-- SEMANTIC_ID: DICAS_PROMPT_ENG_07 -->
-<!-- KNOWLEDGE_DOMAIN: IA/LLM/Prompt Engineering/Prática -->
-<!-- SEMANTIC_CONFIDENCE: HIGH -->
-
 # 📝 Dicas, Convenções e Boas Práticas
 
 <!-- summary:start -->

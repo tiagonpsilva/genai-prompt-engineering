@@ -1,32 +1,3 @@
----
-title: "Fundamentos de Engenharia de Prompt"
-description: "Introdução teórica à Engenharia de Prompt, conceitos-chave, histórico e importância para LLMs."
-author: "Equipe GenAI"
-created_date: "2024-06-10"
-updated_date: "2024-06-10"
-version: "1.0"
-status: "draft"
-confidence: "high"
-tags:
-  - fundamentos
-  - engenharia-de-prompt
-  - LLM
-categories:
-  - Tutorial
-  - Teoria
-language: "pt-BR"
-related_docs: []
-knowledge_graph:
-  concepts:
-    - id: "CONCEPT_PROMPT_ENG"
-      name: "Engenharia de Prompt"
-  relationships: []
----
-
-<!-- SEMANTIC_ID: FUNDAMENTOS_PROMPT_ENG_02 -->
-<!-- KNOWLEDGE_DOMAIN: IA/LLM/Prompt Engineering -->
-<!-- SEMANTIC_CONFIDENCE: HIGH -->
-
 # 💡 Fundamentos de Engenharia de Prompt
 
 <!-- summary:start -->
